@@ -24,3 +24,9 @@ export class MoviesEffects {
   );
   constructor(private actions$: Actions, private moviesService: MovieService) {}
 }
+
+// First solve the nullinjector for store problem 
+// Then make it work
+// then use the map operator reading the docs, to make the result form here so we can use it directly from the template 
+
+// https://www.learnrxjs.io/learn-rxjs/operators/transformation/map

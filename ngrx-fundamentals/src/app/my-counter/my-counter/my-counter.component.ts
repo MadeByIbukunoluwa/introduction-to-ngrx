@@ -12,7 +12,7 @@ export class MyCounterComponent {
 count$ : Observable<number> = new Observable<number>()
 constructor(private store:Store<{count:number}>){
   // Connect this this.$count to the current store `count` state
-  this.count$ = store.select('count')
+  this.count$ = store.select('count') 
 }
  increment() {
     // Dispatch an action that decrements 
